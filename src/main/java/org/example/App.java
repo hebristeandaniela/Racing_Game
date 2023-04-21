@@ -66,6 +66,13 @@ public class App
         Mechanic mechanic = new Mechanic();
         mechanic.repair(carReference);
         System.out.println("Engine manufacturer after repair:" + carReference.engine.manufacturer);
+
+       // System.out.println("Modulo example:");
+        //System.out.println(4 % 2);
+       // System.out.println(4 % 3);
+        //if(4 %2 ==0){
+        //System.out.println("4 is an even number");
+        //}
     }
 }
 
