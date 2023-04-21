@@ -26,8 +26,8 @@ public class Vehicle {
        }
 
         System.out.println(name + "is accelerating with " + speed + "km/h for" + durationInHours + "h");
-    double distance = speed * durationInHours;
-    totalTraveledDistance += distance;
+        double distance = speed * durationInHours;
+        totalTraveledDistance += distance;
         System.out.println("Total traveled distance for vehicle" + name + ":" + totalTraveledDistance);
         double mileageMultiplayer = 1;
 

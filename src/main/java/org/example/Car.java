@@ -2,8 +2,9 @@ package org.example;
 
 public class Car extends AutoVehicle{
 
+    int doorCount;
 
-
-    int doorCount; //nr usi
-
+    public Car(Engine engine) {
+        super(engine);
+    }
 }
