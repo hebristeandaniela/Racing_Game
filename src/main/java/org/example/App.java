@@ -57,6 +57,9 @@ public class App
         System.out.println("Color: " + car2.color);
         System.out.println(car2);
 
+        double distanceForCar1 = carReference.accelerate(60,1);
+        double distanceForCar2 = car2.accelerate(100, 1);
+
     }
 }
 
