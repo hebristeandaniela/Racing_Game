@@ -2,6 +2,11 @@ package org.example;
 
 //"is-a" relationship (inheritance)
 public class Vehicle {
+    // class variable (static variable)
+    static int totalVehicleCount;
+
+
+    //instance variables
     String name;
     double fuelLevel; //combustibil
     double mileage; //consum mediu
@@ -9,6 +14,10 @@ public class Vehicle {
     double maxSpeed; //viteza maxima
     boolean damaged; //masina stricata? true or false
     String color;
+
+    public Vehicle() {
+        totalVehicleCount++;
+    }
 
     public double accelerate(double speed, double durationInHours){
         if(fuelLevel<=0 ||damaged){
