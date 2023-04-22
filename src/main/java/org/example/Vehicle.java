@@ -1,5 +1,7 @@
 package org.example;
 
+import java.time.LocalDate;
+
 //"is-a" relationship (inheritance)
 public class Vehicle {
     // class variable (static variable)
@@ -14,6 +16,8 @@ public class Vehicle {
     double maxSpeed; //viteza maxima
     boolean damaged; //masina stricata? true or false
     String color;
+
+    LocalDate manufacturingDate = LocalDate.now().minusDays(2);
 
     public Vehicle() {
         totalVehicleCount++;
